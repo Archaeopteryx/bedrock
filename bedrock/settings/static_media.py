@@ -136,6 +136,12 @@ PIPELINE_CSS = {
         ),
         'output_filename': 'css/newsletter-bundle.css',
     },
+    'newsletter-mozilla': {
+        'source_filenames': (
+            'css/newsletter/newsletter-mozilla.less',
+        ),
+        'output_filename': 'css/newsletter-mozilla-bundle.css',
+    },
     'contact-spaces': {
         'source_filenames': (
             'css/libs/mapbox-2.3.0.css',
